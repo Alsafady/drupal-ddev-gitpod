@@ -1,0 +1,22 @@
+title: التذاكر
+elements: |
+  name:
+    '#title': الاسم
+  email:
+    '#title': 'البريد الإلكتروني'
+  telephone:
+    '#title': 'رقم التواصل'
+  location:
+    '#title': الموقع
+  description:
+    '#title': 'وصف المشكلة'
+  status:
+    '#title': الحالة
+    '#options':
+      Open: مفتوحة
+      'Under Reviewing': 'تحت المراجعة'
+      Closed: مغلقة
+  are_you_have_print_screen_:
+    '#title': 'هل لديك صورة للمشكلة؟'
+  file:
+    '#title': الملف

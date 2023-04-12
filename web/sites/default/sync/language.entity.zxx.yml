@@ -1,0 +1,11 @@
+uuid: ed84cbbe-f0e9-4e6b-b68f-b30b927a10c7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 35CefWbnzaiytcg3acexxz_GTvuwIjYd_ZTcmmR-tXA
+id: zxx
+label: 'Not applicable'
+direction: ltr
+weight: 3
+locked: true

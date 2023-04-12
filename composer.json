@@ -22,6 +22,8 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/dropzonejs": "^2.8",
+        "drupal/entity_browser": "^2.9",
         "drupal/entity_print": "^2.11",
         "drupal/flood_control": "^2.3",
         "drupal/lang_dropdown": "^2.0",
@@ -30,8 +32,10 @@
         "drupal/toolbar_language_switcher": "^2.0@alpha",
         "drupal/webform": "^6.1",
         "drupal/webform_analysis": "^1.0@beta",
+        "drupal/webform_dropzonejs": "^1.1",
         "drupal/webform_views": "^5.1",
-        "drush/drush": "^10"
+        "drush/drush": "^10",
+        "enyo/dropzone": "^5.9"
     },
     "conflict": {
         "drupal/drupal": "*"
