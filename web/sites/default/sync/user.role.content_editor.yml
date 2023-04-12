@@ -9,6 +9,7 @@ dependencies:
   module:
     - comment
     - contextual
+    - dropzonejs
     - file
     - node
     - path
@@ -38,6 +39,7 @@ permissions:
   - 'delete own article content'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'dropzone upload files'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
