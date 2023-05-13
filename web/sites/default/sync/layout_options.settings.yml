@@ -1,0 +1,7 @@
+layout_overrides:
+  layout_builder__layout_fourcol_section: true
+  layout_discovery__layout_onecol: true
+  layout_discovery__layout_twocol: true
+  layout_discovery__layout_twocol_bricks: true
+  layout_discovery__layout_threecol_25_50_25: true
+  layout_discovery__layout_threecol_33_34_33: true

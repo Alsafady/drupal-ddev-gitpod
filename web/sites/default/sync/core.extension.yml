@@ -7,12 +7,14 @@ module:
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  backup_migrate: 0
   basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
   captcha: 0
+  ckeditor5: 0
   clientside_validation: 0
   clientside_validation_jquery: 0
   comment: 0
@@ -46,6 +48,8 @@ module:
   language: 0
   layout_builder: 0
   layout_discovery: 0
+  layout_options: 0
+  layout_options_ui: 0
   link: 0
   locale: 0
   menu_link_content: 0
@@ -62,14 +66,29 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  swoole: 0
   system: 0
   taxonomy: 0
   telephone: 0
   text: 0
+  token: 0
   toolbar: 0
   toolbar_language_switcher: 0
   tour: 0
   tracker: 0
+  ui_examples: 0
+  ui_examples_defaults: 0
+  ui_patterns: 0
+  ui_patterns_layouts: 0
+  ui_patterns_library: 0
+  ui_patterns_settings: 0
+  ui_patterns_views: 0
+  ui_skins: 0
+  ui_styles: 0
+  ui_styles_ckeditor5: 0
+  ui_styles_layout_builder: 0
+  ui_styles_library: 0
+  ui_styles_views: 0
   update: 0
   user: 0
   views_ui: 0
