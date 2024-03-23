@@ -1,6 +1,6 @@
 {
     "name": "drupal/recommended-project",
-    "description": "Project template for Drupal 9 projects with a relocated document root",
+    "description": "Project template for Drupal projects with a relocated document root",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
@@ -15,34 +15,12 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
-        "daffie/swoole": "^1.0@alpha",
-        "drupal/admin_toolbar": "^3.1",
-        "drupal/backup_migrate": "^5.0",
-        "drupal/bootstrap": "^3.28",
-        "drupal/clientside_validation_jquery": "^4.0",
-        "drupal/core-composer-scaffold": "^9",
-        "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
-        "drupal/dropzonejs": "^2.8",
-        "drupal/entity_browser": "^2.9",
-        "drupal/entity_print": "^2.11",
-        "drupal/flood_control": "^2.3",
-        "drupal/lang_dropdown": "^2.0",
-        "drupal/layout_options": "^1.2",
-        "drupal/material_admin": "^2.0",
-        "drupal/recaptcha": "^3.2",
-        "drupal/toolbar_language_switcher": "^2.0@alpha",
-        "drupal/ui_examples": "^1.0@beta",
-        "drupal/ui_patterns": "^1.5",
-        "drupal/ui_skins": "^1.0@alpha",
-        "drupal/ui_suite_bootstrap": "^5.0@alpha",
-        "drupal/webform": "^6.1",
-        "drupal/webform_analysis": "^1.0@beta",
-        "drupal/webform_dropzonejs": "^1.1",
-        "drupal/webform_views": "^5.1",
-        "drush/drush": "^10",
-        "enyo/dropzone": "^5.9"
+        "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-project-message": "^10.1",
+        "drupal/core-recommended": "^10.1",
+        "drush/drush": "^12.3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -50,12 +28,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
-        }
+            "drupal/core-project-message": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
     },
     "extra": {
         "drupal-scaffold": {
@@ -85,6 +65,9 @@
             "web/modules/custom/{$name}": [
                 "type:drupal-custom-module"
             ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
@@ -101,7 +84,7 @@
                 "<bg=blue;fg=white>                                                         </>",
                 "",
                 "<bg=yellow;fg=black>Next steps</>:",
-                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
                 "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
                 "  * Get support: https://www.drupal.org/support",
                 "  * Get involved with the Drupal community:",
