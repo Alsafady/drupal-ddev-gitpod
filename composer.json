@@ -21,7 +21,8 @@
         "drupal/core-composer-scaffold": "11.0.5",
         "drupal/core-project-message": "11.0.5",
         "drupal/core-recommended": "11.0.5",
-        "drupal/sitemap": "^2.0"
+        "drupal/sitemap": "^2.0",
+        "drush/drush": "^13.2"
     },
     "conflict": {
         "drupal/drupal": "*"
